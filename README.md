@@ -80,3 +80,6 @@ This is an application for django oscar products import/export. Import/export is
 # Contributing
 
 Please feel free to send your issues and pull requests.
+
+# Lisense
+BSD License
