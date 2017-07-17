@@ -76,6 +76,8 @@ This is an application for django oscar products import/export. Import/export is
 	]
 ```
 
+# Current Version 
+Beta
 
 # Contributing
 
