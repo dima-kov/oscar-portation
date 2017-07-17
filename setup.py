@@ -15,7 +15,7 @@ setup(
     author='Dima Kovalchuk',
     author_email='dmyutro@ukr.net',
     url='https://github.com/dima-kov/oscar-portation',
-    download_url='https://github.com/dima-kov/oscar-portation/archive/0.1.1.tar.gz',
+    download_url='https://github.com/dima-kov/oscar-portation/archive/v0.1.1.tar.gz',
     keywords=['django', 'oscar', 'export', 'import'],
     install_requires=[
         'openpyxl',
