@@ -49,3 +49,28 @@ This is an application for django oscar products import/export.
 ```
 
 7. Hooray! Now you can visit `/dashboard/portation/import/` and `/dashboard/portation/export/` to try it.
+
+8. Optiaonally, you can add menu items:
+
+```
+	OSCAR_DASHBOARD_NAVIGATION += [
+	    {
+	        'label': _('Import/export'),
+	        'icon': 'icon-refresh',
+	        'children': [
+	            {
+	                'label': _('Import'),
+	                'url_name': 'dashboard:portation-import',
+	                'access_fn':
+	                    lambda user, url_name, url_args, url_kwargs: user.is_staff,
+	            },
+	            {
+	                'label': _('Export'),
+	                'url_name': 'dashboard:portation-export',
+	                'access_fn':
+	                    lambda user, url_name, url_args, url_kwargs: user.is_staff,
+	            },
+	        ],
+	    },
+	]
+```
