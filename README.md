@@ -1,8 +1,9 @@
 # Django Oscar Portation
 
-This is an application for django oscar products import/export.
+This is an application for django oscar products import/export. Import/export is processed into xlsx files.
 
-# Instalation
+
+# Getting Started
 
 1. Install oscar-portation with `pip install oscar-portation`
 
@@ -74,3 +75,8 @@ This is an application for django oscar products import/export.
 	    },
 	]
 ```
+
+
+# Contributing
+
+Please feel free to send your issues and pull requests.
