@@ -1,0 +1,53 @@
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Dima Kovalchuk <dmyutro@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: oscar-portation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-17 14:36+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: DIMA KOVALCHUK <dmyutro@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: config.py:8
+msgid "Portation (import/export) dashboard"
+msgstr "Табло за управление на портала (импорт / експорт)"
+
+#: forms.py:10
+msgid "File with backup"
+msgstr "Файл с резервно копие"
+
+#: forms.py:18
+msgid "Product class"
+msgstr "Продуктов клас"
+
+#: templates/portation/base.html:9
+msgid "Dashboard"
+msgstr "Табло"
+
+#: templates/portation/base.html:18
+msgid "Portation"
+msgstr "Портни"
+
+#: views.py:22
+msgid "Import"
+msgstr " Внос"
+
+#: views.py:29
+msgid "Updated: {}; Created: {}."
+msgstr "Актуализирано: {}; Създаден: {}."
+
+#: views.py:34
+msgid "Errors on rows: {}"
+msgstr "Грешки в редове: {}"
+
+#: views.py:61
+msgid "Catalogue Export"
+msgstr "Каталог Износ"

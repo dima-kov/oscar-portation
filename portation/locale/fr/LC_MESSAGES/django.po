@@ -1,0 +1,53 @@
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Dima Kovalchuk <dmyutro@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-17 14:36+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: DIMA KOVALCHUK <dmyutro@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: config.py:8
+msgid "Portation (import/export) dashboard"
+msgstr "Tableau de bord de la station de port (importation / exportation)"
+
+#: forms.py:10
+msgid "File with backup"
+msgstr "Fichier avec sauvegarde"
+
+#: forms.py:18
+msgid "Product class"
+msgstr "Classe de produit"
+
+#: templates/portation/base.html:9
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: templates/portation/base.html:18
+msgid "Portation"
+msgstr "Portage"
+
+#: views.py:22
+msgid "Import"
+msgstr "Importer"
+
+#: views.py:29
+msgid "Updated: {}; Created: {}."
+msgstr "Actualisé: {}; Créé: {}."
+
+#: views.py:34
+msgid "Errors on rows: {}"
+msgstr "Erreurs sur les lignes: {}"
+
+#: views.py:61
+msgid "Catalogue Export"
+msgstr "Exportation de catalogue"

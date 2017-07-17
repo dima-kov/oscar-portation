@@ -5,4 +5,4 @@ setup.py
 include LICENSE.txt
 include README.md
 
-recursive-include portation *.py *.html *.css *.js
+recursive-include portation *.py *.html *.css *.js *.po *.mo
