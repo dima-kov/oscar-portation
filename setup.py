@@ -7,15 +7,15 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='oscar-portation',
-    version='0.1.0',
+    version='0.1.1',
     packages=find_packages(),
     license='BSD License',
     include_package_data=True,
     description='Oscar dashboard app for import/export',
     author='Dima Kovalchuk',
     author_email='dmyutro@ukr.net',
-    url='https://github.com/q-bart/mypackage',
-    download_url='https://github.com/q-bart/mypackage/archive/0.1.0.tar.gz',
+    url='https://github.com/dima-kov/oscar-portation',
+    download_url='https://github.com/dima-kov/oscar-portation/archive/0.1.1.tar.gz',
     keywords=['django', 'oscar', 'export', 'import'],
     install_requires=[
         'openpyxl',
